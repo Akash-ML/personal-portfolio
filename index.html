@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Akash S | Machine Learning Student</title>
+    <meta
+      name="description"
+      content="Creative, responsive portfolio for a final-year machine learning student."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise"></div>
+    <header class="hero">
+      <div class="hero__content">
+        <p class="eyebrow">Final Year · Machine Learning</p>
+        <button class="theme-toggle" id="themeToggle" type="button">
+          Dark mode
+        </button>
+        <h1>I build ML systems that make real-world data usable and reliable.</h1>
+        <p class="subhead">
+          I’m <span class="accent">Akash S</span>, a final-year ML student
+          focused on applied ML, computer vision, and LLM-powered systems. I
+          translate research into usable tools.
+        </p>
+        <div class="hero__cta">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn ghost" href="#contact">Let’s Connect</a>
+        </div>
+        <div class="hero__meta">
+          <span>Based in Chennai, India</span>
+          <span>Open to ML internships & roles</span>
+        </div>
+      </div>
+      <div class="hero__panel">
+        <div class="panel__card">
+          <p class="panel__label">Currently</p>
+          <p class="panel__title">
+            Final Year · Sri Sairam Engineering College
+          </p>
+          <p class="panel__body">
+            Studying CSE (AIML).
+            Building projects across CV, NLP, and applied ML pipelines.
+          </p>
+        </div>
+        <div class="panel__card">
+          <p class="panel__label">Focus Areas</p>
+          <ul class="panel__list">
+            <li>Computer Vision & Video Analytics</li>
+            <li>LLM Apps & RAG Pipelines</li>
+            <li>MLOps & Real-time APIs</li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section about" id="about">
+        <div class="section__header">
+          <h2>About</h2>
+          <p>
+            I combine hands-on engineering with research curiosity. My work
+            emphasizes robust pipelines, data-centric iteration, and clear
+            stakeholder communication.
+          </p>
+        </div>
+        <div class="about__grid">
+          <div class="about__card">
+            <h3>What I care about</h3>
+            <p>
+              Building ML systems that are reliable, explainable, and ready for
+              production use.
+            </p>
+          </div>
+          <div class="about__card">
+            <h3>Tools I enjoy</h3>
+            <p>
+              Python, TensorFlow, scikit-learn, OpenCV, FastAPI, SQLAlchemy,
+              Streamlit, Git.
+            </p>
+          </div>
+          <div class="about__card">
+            <h3>In my free time</h3>
+            <p>
+              I explore new ML papers, build side projects, and practice
+              prompt engineering with LLMs.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section projects" id="projects">
+        <div class="section__header">
+          <h2>Projects</h2>
+          <p>A selection of applied ML and backend projects.</p>
+        </div>
+        <div class="projects__grid">
+          <article class="project__card">
+            <div class="project__badge">Computer Vision</div>
+            <h3>Real-time Crime Detection</h3>
+            <p>
+              Built a YOLOv8-based real-time surveillance system for weapon
+              detection in live video streams.
+            </p>
+            <a
+              class="project__link"
+              href="https://github.com/Akash-ML/Analysis-and-Detection-of-Crimes"
+              target="_blank"
+              rel="noreferrer"
+              >View on GitHub</a
+            >
+            <ul class="project__meta">
+              <li>Python · YOLOv8 · OpenCV · TensorFlow</li>
+              <li>Impact: Reduced manual monitoring effort by 75%</li>
+            </ul>
+          </article>
+          <article class="project__card">
+            <div class="project__badge">Backend + ML</div>
+            <h3>Inventory Management Backend (FastAPI)</h3>
+            <p>
+              Developed a RESTful backend with JWT auth, RBAC, and ML inference
+              endpoints.
+            </p>
+            <a
+              class="project__link"
+              href="https://github.com/Akash-ML/fastapi-inventory-backend"
+              target="_blank"
+              rel="noreferrer"
+              >View on GitHub</a
+            >
+            <ul class="project__meta">
+              <li>FastAPI · SQLAlchemy · Alembic · PostgreSQL</li>
+              <li>Pytest for testing auth, CRUD, and ML endpoints</li>
+            </ul>
+          </article>
+          <article class="project__card">
+            <div class="project__badge">Generative AI</div>
+            <h3>Legal Query Resolution Chatbot</h3>
+            <p>
+              Built a legal chatbot using LLaMA 3.2 with a RAG pipeline and
+              Streamlit deployment.
+            </p>
+            <ul class="project__meta">
+              <li>LLaMA 3.2 · LangChain · Hugging Face · RAG</li>
+              <li>Impact: Reduced manual query handling by 60%</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section skills" id="skills">
+        <div class="section__header">
+          <h2>Skills</h2>
+          <p>
+            A quick snapshot of my ML toolkit.
+          </p>
+        </div>
+        <div class="skills__grid">
+          <div class="skills__column">
+            <h3>ML & Data</h3>
+            <ul>
+              <li>Scikit-learn, TensorFlow, Keras</li>
+              <li>OpenCV, NLTK, Streamlit</li>
+              <li>Pandas, NumPy, Matplotlib</li>
+            </ul>
+          </div>
+          <div class="skills__column">
+            <h3>Backend Engineering</h3>
+            <ul>
+              <li>FastAPI, REST APIs, JWT, Pydantic</li>
+              <li>SQLAlchemy, Alembic, MySQL</li>
+              <li>Pytest, Git, GitHub, VS Code</li>
+            </ul>
+          </div>
+          <div class="skills__column">
+            <h3>Generative AI</h3>
+            <ul>
+              <li>Prompt Engineering</li>
+              <li>RAG Pipelines & Vector DBs</li>
+              <li>LLM Integration</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section highlights" id="highlights">
+        <div class="section__header">
+          <h2>Highlights</h2>
+          <p>Experience, education, and certifications.</p>
+        </div>
+        <div class="highlights__list">
+          <div class="highlight__item">
+            <span class="highlight__year">Jun–Jul 2025</span>
+            <div>
+              <h3>Machine Learning Intern · CRA, MIT Chennai</h3>
+              <p>
+                Built a Streamlit data collection interface with Intel RealSense
+                cameras and trained LSTM models achieving 99.61% accuracy.
+              </p>
+            </div>
+          </div>
+          <div class="highlight__item">
+            <span class="highlight__year">2022–2026</span>
+            <div>
+              <h3>Sri Sairam Engineering College · B.E. CSE (AIML)</h3>
+              <p>CGPA: 7.65 · Expected Apr 2026</p>
+            </div>
+          </div>
+          <div class="highlight__item">
+            <span class="highlight__year">Certifications</span>
+            <div>
+              <p>
+                Information Retrieval Techniques (GUVI) · Deep Learning (NPTEL)
+                · Cloud Computing (NPTEL) · Java (IITB) · MySQL (IITB)
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="section__header">
+          <h2>Let’s Connect</h2>
+          <p>Reach out for collaborations, internships, or ML roles.</p>
+        </div>
+        <div class="contact__grid">
+          <div class="contact__card">
+            <h3>Email</h3>
+            <p>akash2822005@gmail.com</p>
+          </div>
+          <div class="contact__card">
+            <h3>Links</h3>
+            <p>
+              <a
+                href="https://www.linkedin.com/in/akash-s2802/"
+                target="_blank"
+                rel="noreferrer"
+                >LinkedIn</a
+              >
+              ·
+              <a
+                href="https://github.com/Akash-ML"
+                target="_blank"
+                rel="noreferrer"
+                >GitHub</a
+              >
+            </p>
+          </div>
+          <div class="contact__card">
+            <h3>Resume</h3>
+            <p>Available on request</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2026 Akash S</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
